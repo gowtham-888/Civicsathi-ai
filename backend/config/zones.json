@@ -1,0 +1,47 @@
+[
+  {
+    "name": "St Joseph's Boys' High School",
+    "type": "school",
+    "latitude": 12.97172,
+    "longitude": 77.60364,
+    "is_placeholder": false,
+    "source": "https://sjbhs.edu.in/contact"
+  },
+  {
+    "name": "St Joseph's Indian High School",
+    "type": "school",
+    "latitude": 12.96972,
+    "longitude": 77.59500,
+    "is_placeholder": false
+  },
+  {
+    "name": "St Martha's Hospital",
+    "type": "hospital",
+    "latitude": 12.972191,
+    "longitude": 77.58678,
+    "is_placeholder": false,
+    "source": "https://stmarthas.in/contact-us"
+  },
+  {
+    "name": "Bowring and Lady Curzon Hospitals",
+    "type": "hospital",
+    "latitude": 12.98334,
+    "longitude": 77.60469,
+    "is_placeholder": false,
+    "source": "https://sabvmcri.karnataka.gov.in/"
+  },
+  {
+    "name": "MG Road near Mahatma Gandhi Road Metro Station",
+    "type": "main road",
+    "latitude": 12.975536,
+    "longitude": 77.606830,
+    "is_placeholder": false
+  },
+  {
+    "name": "Cubbon Road near Cubbon Park Metro Station",
+    "type": "main road",
+    "latitude": 12.981095,
+    "longitude": 77.596860,
+    "is_placeholder": false
+  }
+]

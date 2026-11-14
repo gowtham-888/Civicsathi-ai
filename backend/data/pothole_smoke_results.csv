@@ -1,0 +1,7 @@
+image,category,confidence,source,bbox
+backend\data\potholes\pothole1.jpeg,pothole,0.9286530017852783,ai,"{""x"": 318.0, ""y"": 222.0, ""w"": 284.0, ""h"": 195.0}"
+backend\data\potholes\pothole2.jpeg,pothole,0.8955175280570984,ai,"{""x"": 115.0, ""y"": 65.0, ""w"": 429.0, ""h"": 187.0}"
+backend\data\potholes\pothole3.jpeg,pothole,0.932991623878479,ai,"{""x"": 820.0, ""y"": 362.0, ""w"": 379.0, ""h"": 175.0}"
+backend\data\potholes\pothole4.jpeg,pothole,0.9200793504714966,ai,"{""x"": 315.0, ""y"": 739.0, ""w"": 509.0, ""h"": 258.0}"
+backend\data\potholes\pothole5.jpeg,pothole,0.9258894324302673,ai,"{""x"": 76.0, ""y"": 116.0, ""w"": 378.0, ""h"": 182.0}"
+backend\data\potholes\pothole6.jpeg,pothole,0.9201348423957825,ai,"{""x"": 112.0, ""y"": 53.0, ""w"": 395.0, ""h"": 198.0}"
