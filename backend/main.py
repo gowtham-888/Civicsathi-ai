@@ -22,9 +22,15 @@ UPLOADS_DIR.mkdir(parents=True, exist_ok=True)
 app = FastAPI(title="CivicSathi AI API")
 logger = logging.getLogger(__name__)
 
+frontend_origins = [
+    origin.strip().rstrip("/")
+    for origin in os.getenv("FRONTEND_ORIGINS", "").split(",")
+    if origin.strip()
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173", *frontend_origins],
     allow_origin_regex=(
         r"^http://(?:localhost|127\.0\.0\.1|10(?:\.\d{1,3}){3}|"
         r"192\.168(?:\.\d{1,3}){2}|172\.(?:1[6-9]|2\d|3[01])(?:\.\d{1,3}){2}):5173$"
